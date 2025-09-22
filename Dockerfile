@@ -11,4 +11,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY main.py /app/main.py
 ENV OMP_THREAD_LIMIT=1
-ENTRYPOINT ["python","-u","/app/pdf_text_extract.py"]
+ENTRYPOINT ["python","-u","/app/main.py"]
